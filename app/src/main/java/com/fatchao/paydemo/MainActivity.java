@@ -9,5 +9,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        initData();
+    }
+
+    private void initData() {
+        //TODO 从服务端拿到回调的参数之后，就可以直接调起支付了
+
     }
 }
